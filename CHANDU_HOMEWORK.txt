@@ -1,0 +1,199 @@
+MANUAL TESTING CONCEPTS
+
+  1)Why testing is required?
+   Testing is required for an effective performance of software application or product.
+   It's important to ensure that the application should not result into any failures because it can be very expensive in the future or in the later stages of the development
+  2)What types of application we test
+   We Test different type of android and ios applications and web applications.
+  3)what is SDLC and different phases in SDLC?
+   SDLC, Software Development Life Cycle is a process used by software industry to design, develop and test high quality softwares.
+   Planning,Defining,Designing,Building,Testing,Deployment
+  4)what is waterfall method?
+   The waterfall model is a sequential (non-iterative) design process, used in software development processes, in which progress is seen as flowing steadily downwards (like a waterfall) 
+   through the phases of conception, initiation, analysis, design, construction, testing, production/implementation and maintenance.
+  5)what is agile method
+   Agile software development refers to a group of software development methodologies based on iterative development, where requirements and solutions
+   evolve through collaboration between self-organizing cross-functional teams.
+  6)what is scrum methodology
+   Scrum is an agile way to manage a project, usually software development. 
+   Agile software development with Scrum is often perceived as a methodology; 
+   but rather than viewing Scrum as methodology, think of it as a framework for managing a process.
+  7)what is the process in agile model
+   Agile SDLC model is a combination of iterative and incremental process models with focus on process adaptability 
+   and customer satisfaction by rapid delivery of working software product. Agile Methods break the product into small incremental builds. 
+   These builds are provided in iterations.
+  8)what is product back log items
+   Product Backlog Item. In Scrum, a product backlog item ("PBI", "backlog item", or "item") is a unit of work small enough to be completed by a team in one Sprint iteration.
+  9)what is sprint planing
+   Sprint planning is a collaborative effort involving a ScrumMaster, who facilitates the meeting, 
+   a Product Owner, who clarifies the details of the product backlog items and their respective acceptance criteria, 
+   and the Entire Agile Team, who define the work and effort necessary to meet their sprint commitment.
+  10)what is sprint review meeting
+    In Scrum, each sprint is required to deliver a potentially shippable product increment.
+    This means that at the end of each sprint, the team has produced a coded, tested and usable piece of software.
+    During this meeting, the Scrum team shows what they accomplished during the sprint.
+  11)what is sprint retrospective 
+    The sprint retrospective is a meeting facilitated by the ScrumMaster at which the team discusses 
+    the just-concluded sprint and determines what could be changed that might make the next sprint more productive
+  12)what is sprint grooming
+    Product backlog refinement—sometimes called product backlog grooming in reference to keeping the backlog clean 
+    and orderly—is a meeting that is held near the end of one sprint to ensure the backlog is ready for the next sprint
+  13)what is v model?
+    The V - model is SDLC model where execution of processes happens in a sequential manner in V-shape.
+    It is also known as Verification and Validation model. V - Model is an extension of the waterfall model and is based on association of a testing phase for each corresponding development stage
+  14)what is STLC?
+    Software Testing Life Cycle (STLC) is the testing process which is executed in systematic and planned manner. 
+    In STLC process, different activities are carried out to improve the quality of the product. Test Execution.
+  15)Whatis defect
+    A programmer while designing and building the software can make mistakes or error. These mistakes or errors mean that there are flaws in the software. These are called defects. 
+    When actual result deviates from the expected result while testing a software application or product then it results into a defect.
+  16)what is unit testing
+    Unit testing is a software development process in which the smallest testable parts of an application, called units,
+    are individually and independently scrutinized for proper operation. Unit testing can be done manually but is often automated.
+  17)when do we use regression testing?
+    Regression testing is defined as a type of software testing to confirm that a recent program or code change has not adversely affected existing features.
+    regression testing is nothing but full or partial selection of already executed test cases which are re-executed to ensure existing functionalities work fine.
+    This testing is done to make sure that new code changes should not have side effects on the existing functionalities. It ensures that old code still works once the new code changes are done. 
+  18)What is integration testing?
+     Integration testing, also known as integration and testing (I&T), is a software development process which program units are combined and tested as groups in multiple ways. 
+     In this context, a unit is defined as the smallest testable part of an application
+  19)What is UAT?
+     User acceptance testing (UAT) is the last phase of the software testing process.
+     During UAT, actual software users test the software to make sure it can handle required tasks in real-world scenarios, according to specifications.
+  20)what is alpha and beta testing?
+     Alpha testing is a type of acceptance testing; performed to identify all possible issues/bugs before releasing the product to everyday users or public.
+     The focus of this testing is to simulate real users by using blackbox and whitebox techniques.
+     Beta Testing of a product is performed by "real users" of the software application in a "real environment" and can be considered as a form of external user acceptance testing.
+     Beta version of the software is released to a limited number of end-users of the product to obtain feedback on the product quality. Beta testing reduces product failure risks and provides increased quality of the product through customer validation.  
+  21)when do we use white box testing and block box testing?
+     Black-box testing (also known as functional testing) treats software under test as a black-box without knowing its internals.
+     advantages of black-box testing are:
+     Efficient for large segments of code
+     Code access is not required
+     Separation between user’s and developer’s perspectives
+     White-box testing (also known as clear box testing, glass box testing, transparent box testing, and structural testing) 
+     looks inside the software that is being tested and uses that knowledge as part of the testing process.
+     advantages of white-box testing are:
+     Efficient in finding errors and problems
+     Required knowledge of internals of the software under test is beneficial for thorough testing
+     Allows finding hidden errors
+     Programmers introspection
+     Helps optimizing the code
+     Due to required internal knowledge of the software, maximum coverage is obtained
+  22)when do we use automation testing?
+     Automated testing is more reliable, as it is performed by tools and/or scripts.
+     Automated testing is executed by software tools, so it is significantly faster than a manual approach.
+     Investment is required for testing tools.
+     Automated testing is a practical option when the test cases are run repeatedly over a long time period.
+     Automated testing does not entail human observation and cannot guarantee user-friendliness or positive customer experience.
+  23)what tester will do in each phase of SDLC?
+    both tester and developers are provided with same requirement, initially they interact with each other during requirement analysis phase,
+    once they have understood, dev team will be busy with developing it and tester will be busy in preparing testcase
+  24)load testing an performance testing?
+     Performance testing is the process of determining the speed or effectiveness of a computer, network, software program or device. 
+     This process can involve quantitative tests done in a lab,
+     such as measuring the response time or the number of MIPS (millions of instructions per second) at which a system functions.
+  25)what is test case?
+     a case that sets a precedent for other cases involving the same question of law.
+  26)what is test planning/test strategy document
+     Test Plan and Test Strategy. ... Test strategy is a high level document which defines the approach for software testing. It is basically derived from the Business Requirement document.
+     Test strategy is developed by project manager or business analyst.
+  27)what is TDD and BDD (cucumber framework)
+     Behavior-driven Development (BDD) is an agile software development practice that enhances the paradigm of Test Driven Development (TDD) and acceptance tests,
+     and encourages the collaboration between developers, quality assurance, domain experts, and stakeholders.
+  28)what is production environment
+     A production environment is where the real-time staging of programs that run an organization are executed, and includes 
+     the personnel, processes, data, hardware, and software needed to perform day-to-day operations.
+  29)what is development environment
+     In computer program and software product development, the development environment is the set of processes and programming tools used to create the program or software product. 
+     The term may sometimes also imply the physical environment.
+  30)what is QA environment
+     A QA environment is where you test your upgrade procedure against data,hardware, and software that closely simulate the Production environment 
+     and where you allow intended users to test the resulting Waveset application.
+  31)how to deal the production defects?
+     The best thing you can do is learn from it and prevent the same in the future.
+     I write an automated test-case for each defect found in production, since these are the brittle parts of the application.
+  32)what are typical environments we have in projects in testing?
+     DEVELOP,TEST,AUTOMATION and PRODUCTION (DTAP)
+  33)what are different defect metrics and measurements we prepare in testing?
+     "Software testing metrics - Improves the efficiency and effectiveness of a software testing process."
+      Software testing metrics or software test measurement is the quantitative indication of extent, capacity, dimension, amount or size of some attribute of a process or product.
+      It improves scope,quality andreduces the cost and time saving.
+      Process Metrics: It can be used to improve the process efficiency of the SDLC ( Software Development Life Cycle)
+      Product Metrics: It deals with the quality of the software product
+      Project Metrics: It can be used to measure the efficiency of a project team or any tools being used by the team members
+  
+[Eg 1]write a test case to validate how atm machine works?
+Sol 1)Check the option when u insert a card
+    2)Check the option when u insert a card in right angle
+    3)Check the option when u insert a card in wrong angle
+    4)check the language selection
+    5)check if it is displaying the selected language or not?
+    6)check if is showing enter pin number 
+    7)check the operation if you entered right pin num
+    8)check the operation if you entered wrong pin num
+    9)check the pin num is in encrypted form or not
+    10)click on enter option check whether it is giving selected option or not
+    11)verify the options
+    12)check the operation amount to be entered
+    13)check if money is drawing from the selected account or not
+    14)check if correct amount is coming out or not
+    15)check the operation if you draw money grater than the balance
+    16)check the operation if you draw money greater than the day limit
+    17)check the operation when the machine dont have money
+    18)check the operation when the machine have some problems
+
+[Eg 2]write a test cases to verify shopping card functionality?
+    1) Check if you are able to add items to cart 
+    2) Check for edit,add, delete,save option.
+    3) Check if you are able to proceed to checkout. 
+    4) Check if clicking on add to cart button takes the user to cart page or not 
+    5) Check if quantity button is present etc
+
+[Eg 3]Write a test case to vaidate inbox email functionality
+    1)Check whether newly received email is displayed as a Pop up in the Inbox section.
+    2)Check that a newly received email has correctly displayed sender emailId or name, mail subject and mail body(trimmed to single line).
+    3)Check that on clicking the newly received email, it is navigated to email content.
+    4)Check that the received email contents are correctly displayed with the desired source formatting.
+    5)Check if any attachments are attached to the email and is downloadable.
+    6)Check that the attachments are scanned for viruses before download.
+    7)Check if all the emails marked as read are not highlighted.
+    8)Check that all the emails read as well as unread have a mail read time appended at the end on the email list displayed in the inbox section.
+    9)Check the count of unread emails is displayed alongside 'Inbox' text in left sidebar of GMail.
+    10)Check whether the unread email count increases by one on receiving a new email.
+    11)Check that unread email count decreases by one on reading an email ( marking email as read).
+    12)Check that email recipients in cc are visible to all user.
+    13)Check that email recipients in bcc are not visible to user.
+    14)Check all received emails get piled up in the 'Inbox' section and gets deleted in cyclic fashion based on the size availability.
+    15)Check that email can be received from non-gmail emailIds like - yahoo, hotmail etc.
+[Eg 4]Test Scenarios of Flight Reservation System
+      Verify that there is portal to add new flights in the sytem.
+      1)Verify that on filling flight details like flight name, code, from and to destinations, capacity, timings and frequency etc, new filghts get successfully added in the system.
+      2)Verify that user can search for flights by name, from-to airports or flight code for checking their status and timings.
+      3)Verify that search results have flight details, timings and availability.
+      4)Verify that clicking the search results open complete details for flight.
+      5)Verify that user should see realtime flight status of availability of seats.
+      6)Verify that user is presented with graphical view of the airline's sitting arrangement along with seat number and availability status.
+      7)Verify that pricing of different types of seats is displayed to the users.
+      8)Verify that user can successfuly select single or more than one seat.
+      9)Verfiy that user cannnot select or is not permitted to select seats that are already booked or not allowed for booking.
+      10)Verify that after selecting seats, entering passenger details and making payment the selected seats get booked.
+      11)Verify that on successful booking the ticket should be visible and downloadable.
+      12)Verify that after successful booking the seat's stuatus is updated to booked.
+      13)Verify that user also receive confirmation mail along with tickets on the emailIds provided while filling the details.
+      14)Verify the maximum limit of seats that a user can book, selecting more seats than permiited results in error message.
+      15)Verify that all the different types of payment methods work fine.
+      16)Verify that user is presented with additional options like- luggage, extra leg room, foods/beverages etc and selecting the same results in additional cost with the booking amount.
+      17)Verify that user can also cancel the tickets booked by entering the mandatory details and the amount after deducting the cancellation fee gets refunded back to user.
+      18)Verify that after cancellation the seat's status is updated to available.
+     
+    
+
+
+     
+     
+
+  
+
+
+
